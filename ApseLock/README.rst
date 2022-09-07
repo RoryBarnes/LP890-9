@@ -1,4 +1,4 @@
-Apsidal Locking of the Speculoos-1 System
+Apsidal Locking in the LP 890-9 System
 =========================================
 
 ===================   ============
@@ -11,7 +11,7 @@ Apsidal Locking of the Speculoos-1 System
 
 TODO:
 
-1. Modify sun.in to match Speculoos-1's properties
+1. Modify sun.in to match SLP 890-9's properties
 2. Modify TGb.in and TGc.in to match planets b and c
 3. Consider a range of initial eccentricities and longitudes of pericenter
 
