@@ -7,7 +7,7 @@ of the Second VPLanet Workshop, which was held virtually on Sept. 13-14, 2022.
 <h3>PARTICIPANTS: Please add your information to <a href="https://github.com/RoryBarnes/LP890-9/blob/main/Contributors.md">Contributors.md</a>!</h3> 
 
 <p align="center">
-  <img width = "250" src="VPLanetLogo.png?raw=true"/>
+  <a href="https://github.com/VirtualPlanetaryLaboratory/vplanet"><img width = "250" src="VPLanetLogo.png?raw=true"/></a>
 </p>
 
 This research was supported by grants from NASA's Habitable Worlds and NExSS programs. 
