@@ -1,4 +1,4 @@
-Magma ocean evolution of Speculoos-1 b and c
+Magma ocean evolution of LP 890-9 and c
 ============================================
 
 =========================   ========================================
@@ -9,8 +9,8 @@ Magma ocean evolution of Speculoos-1 b and c
 
 TODO:
 
-1. Modify sun.in to match Speculoos-1's properties
-2. Modify g.in to match planets b and c
+1. Modify sun.in to match LP 890-9's properties
+2. Modify g.in to match planet c
 3. Explore a wider range of water contents
 4. Try different cases with different tidal Q's and radiogenic inventories
 
