@@ -2,6 +2,8 @@
 
 This repository contains scripts to generate figures for the evolution of the 
 LP 890-9 planetary system as modeled by VPLanet. This research is the output
-of the Second VPLanet Workshop held virtually on Sept. 13-14, 2022.
+of the Second <a href="https://github.com/VirtualPlanetaryLaboratory/vplanet">VPLanet</a> Workshop held virtually on Sept. 13-14, 2022.
 
-
+<p align="center">
+  <img width = "250" src="VPLanetLogo.png?raw=true"/>
+</p>
