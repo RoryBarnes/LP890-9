@@ -10,7 +10,7 @@
 
 TODO:
 
-1. Change mass to that of Speculoos-1
+1. Change mass to that of LP 890-9
 2. Add HZ evolution, including conservative and optimistic limits.
 
 To run this example
