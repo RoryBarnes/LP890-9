@@ -1,4 +1,4 @@
-Cassini States of the Speculoos-1 Planets
+Cassini States of the LP 890-9 Planets
 =========================================
 
 ===================   ============
@@ -12,7 +12,7 @@ Cassini States of the Speculoos-1 Planets
 
 TODO:
 
-1. Modify sun.in to match Speculoos-1's properties
+1. Modify sun.in to match LP 890-9's properties
 2. Modify TGb.in and TGc.in to match planets b and c
 3. Assume circular orbits
 4. Consider a range of initial obliquities and precession angles
