@@ -1,4 +1,4 @@
-Water Loss on Speculoos-1 b and c
+Water Loss on LP 890-9 b and c
 =================================
 
 ===================   ============
@@ -10,7 +10,7 @@ Water Loss on Speculoos-1 b and c
 
 TODO:
 
-1. Change sun.in options to match those of Speculoos-1
+1. Change sun.in options to match those of LP 890-9
 2. Create subdirs for planets b and c
 3. Change venus?.in parameters to match those of b and c
 4. Allow for more water on both planets
