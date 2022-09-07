@@ -1,4 +1,4 @@
-Thermal/Magnetic Evolution of Speculoos-1 c's Interior
+Thermal/Magnetic Evolution of LP 890-9 c's Interior
 ======================================================
 
 ===================   ============
@@ -9,7 +9,7 @@ Thermal/Magnetic Evolution of Speculoos-1 c's Interior
 
 TODO:
 
-1. Modify sun.in to match Speculoos-1's properties
+1. Modify sun.in to match LP 890-9's properties
 2. Modify tidalearth.in to match planet c's properties
 3. Switch sTideModel to either CPL or CTL 
 4. Try different cases with different tidal Q's and radiogenic inventories
