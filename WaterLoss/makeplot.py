@@ -71,28 +71,3 @@ for axis in ax.flatten():
 # Save the figure
 ext = get_args().ext
 fig.savefig(path / f"VenusWaterLoss.{ext}", bbox_inches="tight")
-
-
-# Bolmont scaling figure
-output = vplanet.run(path / "BolmontScaling" / "vpl.in", units=False)
-time = output.sun.Age
-planets = output.bodies[1:]
-N = len(planets)
-eps = np.array([planet.AtmXAbsEffH2O for planet in planets])
-FXUV = np.array([planet.FXUV for planet in planets])
-
-# Plot
-fig, ax = plt.subplots(1, 1)
-fig.subplots_adjust(wspace=0.2)
-lines = [None for i in range(N)]
-
-(lines[0],) = ax.plot(FXUV[0], eps[0])
-ax.plot(FXUV[0], eps[0], color="black")
-
-
-# Tweaks
-ax.set_xlabel("XUV Flux Received by Planet (W/m$^2$)")
-ax.set_ylabel("XUV Atmospheric Escape Efficiency for H$_2$O")
-
-# Save
-fig.savefig(path / f"BolmontScaling.{ext}", bbox_inches="tight")
