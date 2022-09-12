@@ -18,4 +18,4 @@ Megan Gialluca, University of Washington, Seattle
 
 Joseph Livesey, University of Washington, Seattle
 
-<h2>Add your info here</h2>
+Katie Teixeira, Department of Astronomy, University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX, 78712, USA
