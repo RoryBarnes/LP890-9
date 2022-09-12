@@ -11,19 +11,18 @@ if len(sys.argv) != 2:
     print(f"USAGE: python {sys.argv[0]} <png | pdf>")
     exit(0)
 
-# Path hacks
-path = pathlib.Path(__file__).parents[0].absolute()
-sys.path.insert(1, str(path.parents[0]))
+# Path hack
+path = pathlib.Path()
 
 # Run vplanet
-out = vplanet.run(path / "vpl.in", units=False)
+out = vplanet.get_output(path, units=False)
 time = out.TGstar.Time / 1e3
 
 fig = plt.figure(figsize=(6.5, 8))
 plt.subplot(3, 2, 1)
 plt.plot(time, out.TGb.Obliquity, color="k")
 plt.plot(time, out.TGc.Obliquity, color=vplot.colors.red)
-plt.yscale("log")
+# plt.yscale("log")
 plt.ylabel(r"Obliquity ($^\circ$)")
 
 plt.subplot(3, 2, 2)

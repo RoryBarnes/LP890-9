@@ -14,16 +14,15 @@ if len(sys.argv) != 2:
     print(f"USAGE: $ python {sys.argv[0]} <png | pdf>")
     exit(0)
 
-# Path hacks
-path = pathlib.Path(__file__).parents[0].absolute()
-sys.path.insert(1, str(path.parents[0]))
+# Path hack
+path = pathlib.Path()
 
 # Typical plot parameters that make for pretty plot
 mpl.rcParams["figure.figsize"] = (10, 8)
 mpl.rcParams["font.size"] = 16.0
 
 # Run vplanet
-output = vplanet.run(path / "vpl.in", units=False)
+output = vplanet.get_output(path, units=False)
 
 # Extract data
 time = output.b.Time / 1.0e9
