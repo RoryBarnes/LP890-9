@@ -19,4 +19,6 @@ Megan Gialluca, Astronomy Dept., University of Washington, Box 351580, Seattle, 
 
 Joseph Livesey, Astronomy Dept., University of Washington, Box 351580, Seattle, WA, 98195, USA
 
+Michaela Leung, Department of Earth and Planetary Sciences, University of California, Riverside, CA, 92521, USA
+
 <h2>Add your info here</h2>
