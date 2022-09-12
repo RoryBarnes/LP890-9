@@ -21,4 +21,4 @@ Joseph Livesey, Astronomy Dept., University of Washington, Box 351580, Seattle, 
 
 Michaela Leung, Department of Earth and Planetary Sciences, University of California, Riverside, CA, 92521, USA
 
-<h2>Add your info here</h2>
+Katie Teixeira, Department of Astronomy, University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX, 78712, USA
