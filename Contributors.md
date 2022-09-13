@@ -18,4 +18,6 @@ Megan Gialluca, University of Washington, Seattle
 
 Joseph Livesey, University of Washington, Seattle
 
+Karen N. Delgado Vega, University of Puerto Rico at Arecibo
+
 <h2>Add your info here</h2>
