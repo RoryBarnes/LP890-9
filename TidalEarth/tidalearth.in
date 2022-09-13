@@ -7,13 +7,13 @@ dMass		     -1.0  			# Mass, negative -> Earth masses
 dRadius		   -1.0  			# Radius, negative -> Earth radii
 # Orbital Properties
 dEcc         0.5		# Eccentricity
-dSemi       -1e-2 		# Semi-major axis, negative -> AU
+dSemi       -5e-3 		# Semi-major axis, negative -> AU
 
 # EQTIDE Parameters
 bForceEqSpin  1
-dObliquity    0
+dObliquity    40
 dRadGyra     0.5
-dTidalQ      100     #
+dTidalQ      1e2     #
 dK2          0.299   # Love number of degree 2 (Yoder 1995)
 saTidePerts  sun    # Names of perturbing bodies (only central body may have >1)
 sTideModel   DB15
