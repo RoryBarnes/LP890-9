@@ -19,3 +19,5 @@ Megan Gialluca, University of Washington, Seattle
 Joseph Livesey, University of Washington, Seattle
 
 <h2>Add your info here</h2>
+
+Elsa Ducrot, Paris Region Fellow, CEA Saclay, France
