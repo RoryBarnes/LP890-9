@@ -21,6 +21,8 @@ Megan Gialluca, Astronomy Dept., University of Washington, Box 351580, Seattle, 
 
 Joseph Livesey, Astronomy Dept., University of Washington, Box 351580, Seattle, WA, 98195, USA
 
+Elsa Ducrot, Paris Region Fellow, CEA Saclay, France
+
 Karen N. Delgado Vega, University of Puerto Rico at Arecibo
 
 Estelle Janin, School of Earth and Space Exploration, Arizona State University, Tempe, AZ, USA
