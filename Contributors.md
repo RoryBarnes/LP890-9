@@ -31,6 +31,8 @@ Michaela Leung, Department of Earth and Planetary Sciences, University of Califo
 
 Katie Teixeira, Department of Astronomy, University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX, 78712, USA
 
+James A. G. Jackman, School of Earth and Space Exploration, Arizona State University, Tempe, AZ, 82587, USA
+
 Martin Schlecker, Department of Astronomy/Steward Observatory, The University of Arizona, 933 North Cherry Avenue, Tucson, AZ 85721, USA
 
 Michelle Hill, Department of Earth and Planetary Sciences, University of California, Riverside, CA, 92521, USA
