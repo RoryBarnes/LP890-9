@@ -18,4 +18,6 @@ Megan Gialluca, University of Washington, Seattle
 
 Joseph Livesey, University of Washington, Seattle
 
+Estelle Janin, School of Earth and Space Exploration, Arizona State University, Tempe, AZ, USA
+
 <h2>Add your info here</h2>
