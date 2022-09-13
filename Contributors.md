@@ -25,6 +25,8 @@ Michaela Leung, Department of Earth and Planetary Sciences, University of Califo
 
 Katie Teixeira, Department of Astronomy, University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX, 78712, USA
 
+Mikołaj Karawacki, Department of Physics, Astronomy and Applied Informatics, Nicolaus Copernicus University in Toruń, Grudziądzka 5/7, 87-100 Toruń, Poland
+
 Mario Damasso, INAF - Osservatorio Astronomico di Torino, Via Osservatorio 20, I-10025, Pino Torinese (TO), Italy
 
 Roberto La Greca, Biology Consultant Freelancer, Lodi CAP 26900, Lombardia, Italy.
@@ -38,3 +40,4 @@ Jonathan Wojack, University of Southern Queensland, Toowoomba, Australia
 Emeline F. Fromont, Department of Astronomy, University of Maryland, College Park, MD 20742, USA
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
+
