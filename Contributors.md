@@ -6,6 +6,8 @@ Rory Barnes, Astronomy Dept., University of Washington, Box 351580, Seattle, WA,
 
 Laura Amaral, Instituto de Ciencias Nucleares,
               Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
+              
+Debajyoti Basu Sarkar, Independent Researcher, White Hall, AR, 71602, USA
 
 Jessica Birky, Astronomy Dept., University of Washington, Box 351580, Seattle, WA, 98195, USA
 
