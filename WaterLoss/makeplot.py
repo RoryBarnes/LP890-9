@@ -68,6 +68,7 @@ ax[1].set_xlim(5e7, 4.6e9)
 for axis in ax.flatten():
     axis.set_xscale("log")
 
+
 # Save the figure
 ext = get_args().ext
 fig.savefig(path / f"VenusWaterLoss.{ext}", bbox_inches="tight")
