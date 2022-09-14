@@ -80,3 +80,6 @@ Melissa Sedler, Independent Researcher, Phoenix, AZ, 85048, USA
 
 Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of Technology, Gothenburg, Sweden | Center for Planetary Systems Habitability, University of Texas at Austin, Austin, TX, USA
 
+Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
+
+Chetan Chawla, Independent Researcher, New Delhi - 110027, India (ORCiD: 0000-0001-5408-4156)
