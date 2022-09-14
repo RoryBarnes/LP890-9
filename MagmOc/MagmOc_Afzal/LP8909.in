@@ -13,12 +13,6 @@ dSatXUVFrac               0.00120226 # fsat = initial Lxuv / Lbol [dimensionless
 dSatXUVTime               3e9        # tsat = saturation time [yr]
 dXUVBeta                  1.18       # beta = exponential decay rate [dimensionless]
 
-
-# STELLAR Parameters
-sStellarModel baraffe                     # Stellar evolution model: `baraffe` or `none`
-dSatXUVFrac   1.e-3                       # Saturation level of the XUV luminosity
-dSatXUVTime   -7			  # End of XUV-Saturation (- in Gyr, default .1Gyr)
-
 # EQTIDE Parameters
 dTidalQ         100          # Tidal phase lag
 dK2             0.5          # Love number of degree 2

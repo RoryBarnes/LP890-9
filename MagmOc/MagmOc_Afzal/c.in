@@ -10,13 +10,13 @@ dRotPeriod    -8.46                       # Rotation Period, negative -> days
 
 # MAGMOC Properties
 dMassFracFeOIni		0.0788		  # Initial mass fraction of FeO in the mantle (default: 0.0788)
-dWaterMassAtm		-0.5		  # Initial water mass in the system (neg: terrestrial oceans, default: -1)
+dWaterMassAtm		-50		  # Initial water mass in the system (neg: terrestrial oceans, default: -1)
 dSurfTemp		4000		  # Initial surface temperature (default: 4000K)
 dManMeltDensity		4000		  # Mantle melt density (default: 4000kg/m^3)
 bHaltMantleSolidified 	0		  # Halt when mantle solidified? (default: 0 = no, 1 = yes)
 bHaltMantleMeltFracLow  0     # Halt when melt fraction smaller than 0.4 at surface? (default: 0 = no, 1 = yes)
 bHaltAtmDesiSurfCool    0                 # Halt when atmosphere desiccated? (default: 0 = no, 1 = yes)
-bHaltEnterHabZone       0                 # Halt when planet enters habitable zone? (default: 0 = no, 1 = yes)
+bHaltEnterHabZone       1                 # Halt when planet enters habitable zone? (default: 0 = no, 1 = yes)
 bHaltAllPlanetsSolid  	0                 # Halt when all planets are soldified	(for multiple planet systems)
 bHaltAllPlanetsDesicc 	0                 # Halt when all planets are desiccated (for multiple planet systems)
 sRadioHeatModel		none              # Radiogenic heating model (default: none = RadHeat; schaefer = BSE composition)
