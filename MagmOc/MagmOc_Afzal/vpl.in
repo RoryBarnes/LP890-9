@@ -1,9 +1,9 @@
-sSystemName   Trappist1                     # System Name
+sSystemName   LP8909                        # System Name
 iVerbose      5                             # Verbosity level
 bOverwrite    1                             # Allow file overwrites?
 
 # List of "body files" that contain body-specific parameters
-saBodyFiles   Trappist1.in g.in
+saBodyFiles   LP8909.in c.in
 
 # Input/Output Units
 sUnitMass      solar                        # Options: gram, kg, Earth, Neptune, Jupiter, solar
@@ -19,6 +19,6 @@ dMinValue      1e-10                        # Minimum value of eccentricity/obli
 # Evolution Parameters
 bDoForward    1                             # Perform a forward evolution?
 bVarDt        1                             # Use variable timestepping?
-dEta          0.001                         # Coefficient for variable timestepping
-dStopTime     5e9                           # Stop time for evolution
+dEta          0.01                          # Coefficient for variable timestepping
+dStopTime     1e7                           # Stop time for evolution
 dOutputTime   1e3                           # Output timesteps (assuming in body files)
