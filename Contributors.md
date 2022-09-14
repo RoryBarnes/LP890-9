@@ -61,6 +61,8 @@ Emeline F. Fromont, Department of Astronomy, University of Maryland, College Par
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
 
+Matheus Daniel Koren, Instituto de Matemática Estatística e Física, Universidade Federal do Rio Grande, Rio Grande, RS, Brazil
+
 Daria Paul, I. Physikalisches Institut, Universität zu Köln, Zülpicher Straße 77, 50937, Köln, Germany
 
 Melissa Sedler, Independent Researcher, Phoenix, AZ, 85048, USA
