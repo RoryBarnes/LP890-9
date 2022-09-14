@@ -31,6 +31,8 @@ Michaela Leung, Department of Earth and Planetary Sciences, University of Califo
 
 Katie Teixeira, Department of Astronomy, University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX, 78712, USA
 
+Sakshi Gupta, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
+
 James A. G. Jackman, School of Earth and Space Exploration, Arizona State University, Tempe, AZ, 82587, USA
 
 Martin Schlecker, Department of Astronomy/Steward Observatory, The University of Arizona, 933 North Cherry Avenue, Tucson, AZ 85721, USA
@@ -51,8 +53,6 @@ Mario Damasso, INAF - Osservatorio Astronomico di Torino, Via Osservatorio 20, I
 
 Roberto La Greca, Biology Consultant Freelancer, Lodi CAP 26900, Lombardia, Italy.
 
-Sakshi Gupta, Department of Physical Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
-
 Kaiming Cui, Tsung-Dao Lee Institute, Shanghai Jiao Tong University, 800 Dongchuan Road, Shanghai 200240, China
 
 Jonathan Wojack, University of Southern Queensland, Toowoomba, Australia
@@ -62,3 +62,10 @@ Emeline F. Fromont, Department of Astronomy, University of Maryland, College Par
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
 
 Daria Paul, I. Physikalisches Institut, Universität zu Köln, Zülpicher Straße 77, 50937, Köln, Germany
+
+Melissa Sedler, Independent Researcher, Phoenix, AZ, 85048, USA
+
+Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of Technology, Gothenburg, Sweden | Center for Planetary Systems Habitability, University of Texas at Austin, Austin, TX, USA
+
+Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
+
