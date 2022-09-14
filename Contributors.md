@@ -61,6 +61,12 @@ Emeline F. Fromont, Department of Astronomy, University of Maryland, College Par
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
 
+Md Redyan Ahmed,  Department of Physical Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
+
+Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
+
+Paul Bonney, Department of Physics, University of Arkansas, 825 W. Dickson St., Fayetteville, Arkansas 72701, USA
+
 Rohit V, Department of Aerospace Engineering, BMS College of Engineering, Bengaluru - 560019, Karnataka, India
 
 Arturo Miranda Rosete, Instituto de Ciencias Nucleares,
@@ -77,3 +83,6 @@ Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of
 Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
 
 Skanda H, Independent Researcher, Bangalore, Karnataka, 560024, India.
+
+Chetan Chawla, Independent Researcher, New Delhi - 110027, India (ORCiD: 0000-0001-5408-4156)
+
