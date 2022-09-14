@@ -60,3 +60,5 @@ Jonathan Wojack, University of Southern Queensland, Toowoomba, Australia
 Emeline F. Fromont, Department of Astronomy, University of Maryland, College Park, MD 20742, USA
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
+
+Rohit V, Department of Aerospace Engineering, BMS College of Engineering, Bengaluru - 560019, Karnataka, India
