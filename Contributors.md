@@ -61,6 +61,7 @@ Emeline F. Fromont, Department of Astronomy, University of Maryland, College Par
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
 
+Melissa Sedler, Independent Researcher, Phoenix, AZ, 85048, USA
 
 Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of Technology, Gothenburg, Sweden | Center for Planetary Systems Habitability, University of Texas at Austin, Austin, TX, USA
 
