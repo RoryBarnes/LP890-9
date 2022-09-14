@@ -82,4 +82,7 @@ Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of
 
 Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
 
+Skanda H, Independent Researcher, Bangalore, Karnataka, 560024, India.
+
 Chetan Chawla, Independent Researcher, New Delhi - 110027, India (ORCiD: 0000-0001-5408-4156)
+
