@@ -31,6 +31,8 @@ Michaela Leung, Department of Earth and Planetary Sciences, University of Califo
 
 Katie Teixeira, Department of Astronomy, University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX, 78712, USA
 
+Sakshi Gupta, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
+
 James A. G. Jackman, School of Earth and Space Exploration, Arizona State University, Tempe, AZ, 82587, USA
 
 Martin Schlecker, Department of Astronomy/Steward Observatory, The University of Arizona, 933 North Cherry Avenue, Tucson, AZ 85721, USA
@@ -50,8 +52,6 @@ Mikołaj Karawacki, Department of Physics, Astronomy and Applied Informatics, Ni
 Mario Damasso, INAF - Osservatorio Astronomico di Torino, Via Osservatorio 20, I-10025, Pino Torinese (TO), Italy
 
 Roberto La Greca, Biology Consultant Freelancer, Lodi CAP 26900, Lombardia, Italy.
-
-Sakshi Gupta, Department of Physical Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
 
 Kaiming Cui, Tsung-Dao Lee Institute, Shanghai Jiao Tong University, 800 Dongchuan Road, Shanghai 200240, China
 
