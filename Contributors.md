@@ -61,6 +61,8 @@ Emeline F. Fromont, Department of Astronomy, University of Maryland, College Par
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
 
+Rohit V, Department of Aerospace Engineering, BMS College of Engineering, Bengaluru - 560019, Karnataka, India
+
 Arturo Miranda Rosete, Instituto de Ciencias Nucleares,
               Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
 
