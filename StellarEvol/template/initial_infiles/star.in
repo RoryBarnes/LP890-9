@@ -1,0 +1,17 @@
+#
+sName                     star          # body name
+saModules                 stellar     # VPLanet module(s) used 
+sStellarModel             baraffe     # stellar model grid
+dMass                     0.11800        # stellar mass [msun]
+dAge                      5e6         # age at which stellar grids are initialized [yr] (this is a fixed parameter)    
+dSatXUVFrac               0.00120        # fsat = initial Lxuv / Lbol [dimensionless ratio]
+dSatXUVTime               3000000000.00000        # tsat = saturation time [yr]
+dXUVBeta                  1.18000        # beta = exponential decay rate [dimensionless]
+
+
+# output evolution parameters
+saOutputOrder Time -Luminosity -LXUVTot Radius Temperature HZLimRecVenus HZLimRunaway HZLimMaxGreenhouse HZLimEarlyMars
+
+# note: I'm using (-) prefix for Luminosity and LXUVTot, which will make the outputs in terms of Lsun (instead of vpl specified units)
+# to see what the default (-) units are for a variable run 'vplanet -h'
+
