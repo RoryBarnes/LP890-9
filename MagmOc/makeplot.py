@@ -10,7 +10,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 
-import vplanet
+#import vplanet
 
 # Path hacks
 path = pathlib.Path(__file__).parents[0].absolute()
@@ -31,10 +31,10 @@ cmap = plt.get_cmap("nipy_spectral")
 K40 = 1
 
 # Run vplanet
-vplanet.run(path / "vpl.in")
+#vplanet.run(path / "vpl.in")
 
 # TRAPPIST-1 g #
-data = np.loadtxt(path / "Trappist1.g.forward")
+data = np.loadtxt("Trappist1.g.forward")
 R_N_Planet = 1.15
 M_N_Planet = 1.14
 Ecc = 0.002
@@ -231,5 +231,5 @@ ax8.set_xlabel("Time (Myrs)")
 plt.subplots_adjust(left=0.1, right=0.95, top=0.93, bottom=0.05, wspace=0.25)
 
 # Save the figure
-ext = get_args().ext
-fig.savefig(path / f"Trappist1g_2TO.{ext}")
+#ext = get_args().ext
+fig.savefig( f"Trappist1g_2TO.pdf")

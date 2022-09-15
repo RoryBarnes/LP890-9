@@ -191,7 +191,7 @@ Color: 13aed5
 (EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 5.544715e-06 
 (EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.133184e+06 
 (EqRotPer) Equilibrium Rotation Period [sec]: 1.133228e+06 
-(EqTidePower) Equilibrium Power from Tides [/sec]: -6.441834e-237 
+(EqTidePower) Equilibrium Power from Tides [/sec]: -0.000000 
 (GammaRot) Gamma_Rotation [sec]: -1.000000 
 (GammaOrb) Gamma_Orbital [sec]: -1.000000 
 (OceanK2) Ocean's Love number k_2 []: 0.010000 
@@ -492,7 +492,7 @@ Color: 13aed5
 (EqRotRateCont) CPL2 Continuous Equilibrium Spin Rate [/sec]: 5.544715e-06 
 (EqRotPerCont) CPL2 Continuous Equilibrium Rotation Period [sec]: 1.133184e+06 
 (EqRotPer) Equilibrium Rotation Period [sec]: 1.133228e+06 
-(EqTidePower) Equilibrium Power from Tides [/sec]: -6.441834e-237 
+(EqTidePower) Equilibrium Power from Tides [/sec]: -0.000000 
 (GammaRot) Gamma_Rotation [sec]: -1.000000 
 (GammaOrb) Gamma_Orbital [sec]: -1.000000 
 (OceanK2) Ocean's Love number k_2 []: 0.010000 
