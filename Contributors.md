@@ -31,6 +31,8 @@ Michaela Leung, Department of Earth and Planetary Sciences, University of Califo
 
 Katie Teixeira, Department of Astronomy, University of Texas at Austin, 2515 Speedway, Stop C1400, Austin, TX, 78712, USA
 
+Arthur Adams, Department of Earth and Planetary Sciences, University of California, Riverside, CA, 92521, USA (ORCID: 0000-0002-7139-3695)
+
 Sakshi Gupta, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
 
 James A. G. Jackman, School of Earth and Space Exploration, Arizona State University, Tempe, AZ, 82587, USA
@@ -87,3 +89,4 @@ Skanda H, Independent Researcher, Bangalore, Karnataka, 560024, India.
 Chetan Chawla, Independent Researcher, New Delhi - 110027, India (ORCiD: 0000-0001-5408-4156)
 
 Allona Vazan, Astrophysics Research Center (ARCO), Department of Natural Sciences, The Open University of Israel
+
