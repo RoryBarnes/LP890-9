@@ -2,7 +2,8 @@ sName		star		# Body's name
 saModules stellar eqtide        # Modules
 
 # Physical Parameters
-dMass		    0.93        # Mass, negative -> Earth masses
+dMass		    0.118        # Mass, negative -> Earth masses
+dRadius         0.156
 dAge                1.0e6       # Assume star is 1 Myr old when disk disperses
 dRadGyra	    0.45	# Radius of gyration (moment of inertia constant)
 dRotPeriod          -0.5        # Rotation period, negative -> Days
@@ -22,3 +23,7 @@ sMagBrakingModel    reiners     # Stellar magnetic braking model
 dSatXUVFrac         1.e-3       # Saturation level of the XUV luminosity
 
 saOutputOrder	Time -Radius -RotPer -Luminosity
+
+
+
+
