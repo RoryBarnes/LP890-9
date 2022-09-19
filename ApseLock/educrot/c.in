@@ -5,12 +5,11 @@ saModules 	eqtide distorb
 # Physical Properties
 dMass				-2.5  	  # Mass, negative -> Earth masses
 dRadius			-1.367  		# Radius, negative -> Earth radii
-dRotPeriod	-9.  		# Rotation period, negative -> days
+dOrbPeriod	-9.  		# Rotation period, negative -> days
 dRadGyra		0.4       # Radius of gyration (unitless)
 
 # Orbital Properties
 dEcc            0.2		# Eccentricity
-dSemi           -0.03984          # Semi-major axis, negative -> AU
 
 # Eqtide Properties
 dTidalQ         100             # Tidal phase lag
@@ -19,9 +18,9 @@ dMaxLockDiff    0.01            # Tidally lock when spin period is within 10% of
 saTidePerts     star            # Tidally interact with star
 
 # DISTORB Parameters
-dInc            0.0             # Orbital inclination (degrees)
+dInc            0.7129             # Orbital inclination (degrees)
 dLongA          40.0           # Longitude of the Ascending node (degrees)
 dLongP          50.0           # Longitude of the Periapse (degrees)
 
 #Output
-saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot
+saOutputOrder Time -OrbPer LongA LongP SemimajorAxis Eccentricity -SurfEnFluxTot
