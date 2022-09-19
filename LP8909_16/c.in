@@ -5,9 +5,7 @@ sColor        13aed5
 
 # Physical Properties
 dMass         -2.5                        # Mass, negative -> Earth masses
-#dRadius       -0.9499                     # Radius, negative -> Earth radii
 dRotPeriod    -1.                       # Rotation period, negative -> days
-#dObliquity    180.                        # Retrograde rotation
 dRadGyra      0.5                         # Radius of gyration (moment of inertia constant)
 
 # ATMESC Properties
@@ -25,6 +23,8 @@ sAtmXAbsEffH2OModel       bolmont16
 # Orbital Properties
 dSemi         -0.03984                   # Semi-major axis, negative -> AU
 dEcc          0.000000                   # Eccentricity
+dInc           89.287                                       # Inclination
 
-# Output
-saOutputOrder Time -SurfWaterMass -RGLimit -OxygenMantleMass -PlanetRadius -EnvelopeMass -DEnvMassDt -OxygenMass
+
+# Output parameters
+saOutputOrder Time Age -SurfWaterMass -RGLimit -OxygenMantleMass -PlanetRadius -EnvelopeMass -DEnvMassDt -OxygenMass FXUV
