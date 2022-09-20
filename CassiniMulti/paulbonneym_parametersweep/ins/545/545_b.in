@@ -1,0 +1,43 @@
+# Planet Parameters
+sName	545_b
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.3
+dRadius	-1.32
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	98.82689880400865
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.01875
+
+
+# Eqtide Properties
+dTidalQ	100
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	545_star
+
+
+# DISTORB Parameters
+dInc	0.33
+dLongA	329.42122479794676
+dLongP	0
+sOrbitModel	rd4
+bInvPlane	1
+
+
+# DISTROT Parameters
+dPrecA	175.3378090982782
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

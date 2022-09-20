@@ -1,0 +1,41 @@
+# Planet Parameters
+sName	8482_c
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.5
+dRadius	-1.367
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	34.36135666882914
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.03984
+
+
+# Eqtide Properties
+dTidalQ	12
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	8482_star
+
+
+# DISTORB Parameters
+dInc	0.713
+dLongA	138.24791846189544
+dLongP	0
+
+
+# DISTROT Parameters
+dPrecA	345.1356653927879
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

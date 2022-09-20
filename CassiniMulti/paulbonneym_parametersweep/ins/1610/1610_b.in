@@ -1,0 +1,43 @@
+# Planet Parameters
+sName	1610_b
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.3
+dRadius	-1.32
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	125.29041328718411
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.01875
+
+
+# Eqtide Properties
+dTidalQ	100
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	1610_star
+
+
+# DISTORB Parameters
+dInc	0.33
+dLongA	204.09832592309056
+dLongP	0
+sOrbitModel	rd4
+bInvPlane	1
+
+
+# DISTROT Parameters
+dPrecA	167.42915181404513
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

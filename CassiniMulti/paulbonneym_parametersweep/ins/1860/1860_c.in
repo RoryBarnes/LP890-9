@@ -1,0 +1,41 @@
+# Planet Parameters
+sName	1860_c
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.5
+dRadius	-1.367
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	48.11760396353314
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.03984
+
+
+# Eqtide Properties
+dTidalQ	12
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	1860_star
+
+
+# DISTORB Parameters
+dInc	0.713
+dLongA	62.62735447725436
+dLongP	0
+
+
+# DISTROT Parameters
+dPrecA	211.02192243419174
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

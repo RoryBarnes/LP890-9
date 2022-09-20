@@ -1,0 +1,41 @@
+# Planet Parameters
+sName	3818_c
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.5
+dRadius	-1.367
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	41.949186222526436
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.03984
+
+
+# Eqtide Properties
+dTidalQ	12
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	3818_star
+
+
+# DISTORB Parameters
+dInc	0.713
+dLongA	1.1626837468071516
+dLongP	0
+
+
+# DISTROT Parameters
+dPrecA	77.11429568683273
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

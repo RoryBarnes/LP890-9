@@ -1,0 +1,41 @@
+# Planet Parameters
+sName	1646_c
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.5
+dRadius	-1.367
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	4.335847584053325
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.03984
+
+
+# Eqtide Properties
+dTidalQ	12
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	1646_star
+
+
+# DISTORB Parameters
+dInc	0.713
+dLongA	326.1106772965939
+dLongP	0
+
+
+# DISTROT Parameters
+dPrecA	68.8596968800501
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

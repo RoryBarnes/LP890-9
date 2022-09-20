@@ -1,0 +1,43 @@
+# Planet Parameters
+sName	6346_b
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.3
+dRadius	-1.32
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	25.648147604016028
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.01875
+
+
+# Eqtide Properties
+dTidalQ	100
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	6346_star
+
+
+# DISTORB Parameters
+dInc	0.33
+dLongA	193.99361619066283
+dLongP	0
+sOrbitModel	rd4
+bInvPlane	1
+
+
+# DISTROT Parameters
+dPrecA	147.55251694692043
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

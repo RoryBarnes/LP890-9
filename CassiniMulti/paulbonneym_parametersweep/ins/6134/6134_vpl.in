@@ -1,0 +1,17 @@
+sSystemName	LP890-9_6134
+iVerbose	0
+bOverwrite	1
+saBodyFiles	6134_star.in	6134_b.in	6134_c.in
+sUnitMass	solar
+sUnitLength	AU
+sUnitTime	YEARS
+sUnitAngle	d
+sUnitTemp	K
+bDoLog	1
+iDigits	6
+dMinValue	1e-10
+bDoForward	1
+bVarDt	1
+dEta	0.001
+dStopTime	1e4
+dOutputTime	1e2

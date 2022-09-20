@@ -1,0 +1,43 @@
+# Planet Parameters
+sName	8006_b
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.3
+dRadius	-1.32
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	53.63734741130077
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.01875
+
+
+# Eqtide Properties
+dTidalQ	100
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	8006_star
+
+
+# DISTORB Parameters
+dInc	0.33
+dLongA	243.42697698433815
+dLongP	0
+sOrbitModel	rd4
+bInvPlane	1
+
+
+# DISTROT Parameters
+dPrecA	66.1149893332492
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT

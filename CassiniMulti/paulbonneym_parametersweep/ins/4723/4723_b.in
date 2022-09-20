@@ -1,0 +1,43 @@
+# Planet Parameters
+sName	4723_b
+saModules	eqtide distorb distrot
+
+
+# Physical Properties
+dMass	-2.3
+dRadius	-1.32
+dRadGyra	0.4
+
+
+# Rotational Parameters
+dRotPeriod	-1.0
+dObliquity	52.874905085894795
+
+
+# Orbital Properties
+dEcc	0
+dSemi	-0.01875
+
+
+# Eqtide Properties
+dTidalQ	100
+dK2	0.3
+dMaxLockDiff	0.01
+saTidePerts	4723_star
+
+
+# DISTORB Parameters
+dInc	0.33
+dLongA	128.7936515355899
+dLongP	0
+sOrbitModel	rd4
+bInvPlane	1
+
+
+# DISTROT Parameters
+dPrecA	65.23548896204153
+bCalcDynEllip	1
+
+
+# Output
+saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT
