@@ -21,12 +21,3 @@ To run this example
 
     python makeplot.py
 
-
-Expected output
----------------
-
-.. figure:: Trappist1g_2TO.png
-   :width: 600px
-   :align: center
-
-Caption
