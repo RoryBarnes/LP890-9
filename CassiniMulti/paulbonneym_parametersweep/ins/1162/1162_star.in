@@ -1,0 +1,21 @@
+sName	1162_star
+saModules	stellar eqtide
+dMass	0.118
+dRadius	0.1532
+dAge	1.0e6
+dRadGyra	0.4
+
+
+# EQTIDE Parameters
+dTidalQ	1.0e6
+dK2	0.5
+sTideModel	p2
+saTidePerts	1162_b 1162_c
+
+
+# STELLAR Parameters
+sStellarModel	baraffe
+sMagBrakingModel	reiners
+dSatXUVFrac	1e-3
+
+saOutputOrder	Time -Radius -RotPer -Luminosity -TotEn -TotAngMom

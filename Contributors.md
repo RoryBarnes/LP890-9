@@ -61,6 +61,8 @@ Emeline F. Fromont, Department of Astronomy, University of Maryland, College Par
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
 
+Paul Bonney, Department of Physics, University of Arkansas, 825 W. Dickson St., Fayetteville, Arkansas 72701, USA
+
 Rohit V, Department of Aerospace Engineering, BMS College of Engineering, Bengaluru - 560019, Karnataka, India
 
 Arturo Miranda Rosete, Instituto de Ciencias Nucleares,
@@ -75,4 +77,3 @@ Melissa Sedler, Independent Researcher, Phoenix, AZ, 85048, USA
 Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of Technology, Gothenburg, Sweden | Center for Planetary Systems Habitability, University of Texas at Austin, Austin, TX, USA
 
 Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
-
