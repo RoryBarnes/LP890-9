@@ -1,5 +1,5 @@
 # Primary input file for VPLANET
-sSystemName	corot7		# System Name
+sSystemName	LP890-9		# System Name
 iVerbose	5			# Verbosity level
 bOverwrite	1			# Allow file overwrites?
 
@@ -36,5 +36,5 @@ dMinValue	1e-10		# Minimum value of eccentricity/obliquity
 bDoForward	1		# Perform a forward evolution?
 bVarDt		1		# Use variable timestepping?
 dEta		0.001		# Coefficient for variable timestepping
-dStopTime	1.0e7   	# Stop time for evolution
-dOutputTime	1.0e4		# Output timesteps (assuming in body files)
+dStopTime	5.0e8   	# Stop time for evolution
+dOutputTime	1.0e6		# Output timesteps (assuming in body files)

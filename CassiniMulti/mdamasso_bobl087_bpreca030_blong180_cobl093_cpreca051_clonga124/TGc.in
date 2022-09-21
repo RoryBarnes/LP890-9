@@ -1,4 +1,4 @@
-# Teegarden-c Parameters
+# LP890-9c Parameters
 sName				TGc												# Body's name
 saModules 	eqtide distorb distrot    # Modules
 
@@ -6,8 +6,8 @@ saModules 	eqtide distorb distrot    # Modules
 dMass				-2.5  	  # Mass, negative -> Earth masses
 dRadius			-1.367  		# Radius, negative -> Earth radii
 # >L another guess, see b
-dRotPeriod	-8.457463  		# Rotation period, negative -> days
-dObliquity	10       # Obliquity (degrees)
+dRotPeriod	-1.0  		# Rotation period, negative -> days
+dObliquity	93       # Obliquity (degrees)
 dRadGyra		0.4       # Radius of gyration (unitless)
 
 # Orbital Properties
@@ -23,15 +23,14 @@ dMaxLockDiff  0.01            # Tidally lock when spin period is within 1% of or
 saTidePerts   TGstar          # Tidally interacting with star
 
 # DISTORB Parameters
-dInc          4.0             # Orbital inclination (degrees)
-dLongA        5.0             # Longitude of the Ascending node (degrees)
-dLongP        330.0             # Longitude of the Periapse (degrees)
-bInvPlane     1                #add for simulation of L 890-9
+dInc          0.71            # Orbital inclination (degrees)
+dLongA        124.0             # Longitude of the Ascending node (degrees)
+dLongP        0            # Longitude of the Periapse (degrees)
 
 # DISTROT Parameters
-dPrecA					20
+dPrecA					51
 bCalcDynEllip   1
 
 #Output
 saOutputOrder Time -RotPer LongP SemimajorAxis Eccentricity -SurfEnFluxTot $
-		Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT
+		Obli PrecA CassiniOne CassiniTwo PrecFNat DynEllip DeltaT Inc

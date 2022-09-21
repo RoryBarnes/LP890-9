@@ -26,9 +26,9 @@ plt.plot(time, out.TGc.Obliquity, color=vplot.colors.red)
 plt.ylabel(r"Obliquity ($^\circ$)")
 
 plt.subplot(3, 2, 2)
-plt.plot(time, out.TGb.SemiMajorAxis, color="k")
-plt.plot(time, out.TGc.SemiMajorAxis, color=vplot.colors.red)
-plt.ylabel(r"Semi-major axis (au)")
+plt.plot(time, out.TGb.Inc, color="k")
+plt.plot(time, out.TGc.Inc, color=vplot.colors.red)
+plt.ylabel(r"Inclination ($^\circ$)")
 
 plt.subplot(3, 2, 3)
 plt.plot(time, out.TGb.RotPer, color="k")

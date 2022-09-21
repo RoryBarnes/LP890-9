@@ -5,9 +5,8 @@ saModules 	eqtide distorb distrot    # Modules
 # Physical Properties
 dMass				-2.5  	  # Mass, negative -> Earth masses
 dRadius			-1.367  		# Radius, negative -> Earth radii
-# >L another guess, see b
 dRotPeriod	-8.457463  		# Rotation period, negative -> days
-dObliquity	10       # Obliquity (degrees)
+dObliquity	50       # Obliquity (degrees)
 dRadGyra		0.4       # Radius of gyration (unitless)
 
 # Orbital Properties
@@ -24,12 +23,11 @@ saTidePerts   TGstar          # Tidally interacting with star
 
 # DISTORB Parameters
 dInc          4.0             # Orbital inclination (degrees)
-dLongA        5.0             # Longitude of the Ascending node (degrees)
-dLongP        330.0             # Longitude of the Periapse (degrees)
-bInvPlane     1                #add for simulation of L 890-9
+dLongA        40.0             # Longitude of the Ascending node (degrees)
+dLongP        0            # Longitude of the Periapse (degrees)
 
 # DISTROT Parameters
-dPrecA					20
+dPrecA					25
 bCalcDynEllip   1
 
 #Output

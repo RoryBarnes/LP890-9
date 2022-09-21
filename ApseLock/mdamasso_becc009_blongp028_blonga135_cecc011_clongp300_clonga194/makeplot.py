@@ -32,17 +32,8 @@ varpi1 = output.b.LongP
 varpi2 = output.c.LongP
 a1 = output.b.SemiMajorAxis
 a2 = output.c.SemiMajorAxis
-# i1 = output.b.Inc
-# i2 = output.c.Inc
-
-# Observational values
-b_semi_major_axis           = np.ones(len(time)) * 0.01875
-b_semi_major_axis_upper_lim = np.ones(len(time)) * 0.01885
-b_semi_major_axis_lower_lim = np.ones(len(time)) * 0.01865
-c_semi_major_axis           = np.ones(len(time)) * 0.03984
-c_semi_major_axis_upper_lim = np.ones(len(time)) * 0.04006
-c_semi_major_axis_lower_lim = np.ones(len(time)) * 0.03962
-
+i1 = output.b.Inc
+i2 = output.c.Inc
 
 # Plot
 fig, axes = plt.subplots(nrows=2, ncols=2, sharex=True)
@@ -50,9 +41,7 @@ color = "k"
 
 ## Upper left: semi-major axes ##
 axes[0, 0].plot(time, a1, color="C3", zorder=-1, label="b")
-axes[0, 0].plot(time, b_semi_major_axis, color="k", ls="--")
-axes[0, 0].fill_between(time, b_semi_major_axis_upper_lim, b_semi_major_axis_lower_lim, color="gray", alpha=0.5)
-axes[0, 0].legend(loc=0)
+axes[0, 0].plot(time, a2, color="C0", zorder=-1, label="c")
 
 # Format
 axes[0, 0].set_xlim(time.min(), time.max())
@@ -71,14 +60,9 @@ axes[0, 1].legend(loc=0)
 ## Lower left: inclinations ##
 # Format
 axes[1, 0].set_xlabel("Time (Gyr)")
-# axes[1, 0].plot(time, i1, color="C3", zorder=-1)
-# axes[1, 0].plot(time, i2, color="C0", zorder=-1)
-axes[1, 0].plot(time, a2, color="C0", zorder=-1, label="c")
-axes[1, 0].plot(time, c_semi_major_axis, color="k", ls="--")
-axes[1, 0].fill_between(time, c_semi_major_axis_upper_lim, c_semi_major_axis_lower_lim, color="gray", alpha=0.5)
-# axes[1, 0].set_ylabel(r"Inclination ($^{\circ}$)")
-axes[1, 0].set_ylabel(r"Semi-major Axis (au)")
-axes[1, 0].legend(loc=0)
+axes[1, 0].plot(time, i1, color="C3", zorder=-1)
+axes[1, 0].plot(time, i2, color="C0", zorder=-1)
+axes[1, 0].set_ylabel(r"Inclination ($^{\circ}$)")
 
 ## Lower right: diff between longitude of periapses ##
 # varpiDiff = np.fabs(np.fmod(varpi1 - varpi2, 360.0))

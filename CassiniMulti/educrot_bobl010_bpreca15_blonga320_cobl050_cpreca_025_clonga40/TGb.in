@@ -5,9 +5,7 @@ saModules 	eqtide distorb distrot        	# Modules
 # Physical Properties
 dMass				-2.3  	  # Mass, negative -> Earth masses
 dRadius			-1.320  		# Radius, negative -> Earth radii
-# >L This is a guess from a source graph (Damasso 2018)
 dRotPeriod	-2.7299  		# Rotation period, negative -> days
-# >L yet another straight up guess.
 dObliquity	20.0      # Obliquity (degrees)
 dRadGyra		0.4       # Radius of gyration (unitless)
 
@@ -26,12 +24,12 @@ saTidePerts   TGstar          # Tidally interacting with star
 # DISTORB Parameters
 dInc          30.0             # Orbital inclination (assume coplanar)
 dLongA        22.0             # Longitude of the Ascending node (degrees)
-dLongP        0.0             # Longitude of the Periapse (degrees)
+dLongP        0               # Longitude of the Periapse (degrees)
 sOrbitModel   rd4             # Use 4th Order disturbing function model
 bInvPlane     1                #add for simulation of L 890-9
 
 # DISTROT Parameters
-dPrecA				10
+dPrecA				0
 bCalcDynEllip 1
 
 #Output
