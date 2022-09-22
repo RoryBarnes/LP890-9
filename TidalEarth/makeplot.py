@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import vplot
 
-import vplanet
+#import vplanet
+import subprocess
 
 # Path hacks
 path = pathlib.Path(__file__).parents[0].absolute()
@@ -21,10 +22,14 @@ s_yr = 3600.0 * 24 * 365
 filepref = "TidalEarth"
 
 # Run vplanet
-out0 = vplanet.run(path / "au0.01" / "vpl.in", units=False)
-out1 = vplanet.run(path / "au0.02" / "vpl.in", units=False)
-out2 = vplanet.run(path / "au0.05" / "vpl.in", units=False)
+#out0 = vplanet.run(path / "au0.01" / "vpl.in", units=False)
+#out1 = vplanet.run(path / "au0.02" / "vpl.in", units=False)
+#out2 = vplanet.run(path / "au0.05" / "vpl.in", units=False)
+#print(path)
+#out0 = vplanet.run(path / "vpl.in", units=False)
+subprocess.call(['vplanet', 'vpl.in'])
 
+out0 = vplot.GetOutput("./")
 
 def fig2x3(out, nfig, color="k", legendon=False):
     fig = plt.figure(nfig, figsize=(10, 15))
@@ -148,9 +153,9 @@ cols = 2
 # Mantle Figure
 nfig = 1
 colors = ["red", "black", "blue"]
-fig = fig2x3(out1, nfig, colors[1], legendon=True)
+#fig = fig2x3(out1, nfig, colors[1], legendon=True)
 fig = fig2x3(out0, nfig, colors[0], legendon=False)
-fig = fig2x3(out2, nfig, colors[2], legendon=False)
+#fig = fig2x3(out2, nfig, colors[2], legendon=False)
 
 # Temperature-dep Orbital evo
 nfig += 1
@@ -164,20 +169,20 @@ plt.semilogy(
     color=colors[0],
     label="$a_0$=%.2f" % planet.SemiMajorAxis[0],
 )
-planet = out1.tidalearth
-plt.semilogy(
-    planet.TUMan,
-    planet.PowerEqtide,
-    color=colors[1],
-    label="$a_0$=%.2f" % planet.SemiMajorAxis[0],
-)
-planet = out2.tidalearth
-plt.semilogy(
-    planet.TUMan,
-    planet.PowerEqtide,
-    color=colors[2],
-    label="$a_0$=%.2f" % planet.SemiMajorAxis[0],
-)
+#planet = out1.tidalearth
+#plt.semilogy(
+#    planet.TUMan,
+#    planet.PowerEqtide,
+#    color=colors[1],
+#    label="$a_0$=%.2f" % planet.SemiMajorAxis[0],
+#)
+#planet = out2.tidalearth
+#plt.semilogy(
+#    planet.TUMan,
+#    planet.PowerEqtide,
+#    color=colors[2],
+#    label="$a_0$=%.2f" % planet.SemiMajorAxis[0],
+#)
 plt.ylabel(r"Tidal Power [TW]")
 plt.xlabel("Upper Mantle Temp. [K]")
 plt.ylim(1e-8, 1e4)
@@ -187,10 +192,10 @@ panel += 1
 plt.subplot(rows, cols, panel)
 planet = out0.tidalearth
 plt.semilogy(planet.TUMan, planet.Eccentricity, color=colors[0], label="Ecc")
-planet = out1.tidalearth
-plt.semilogy(planet.TUMan, planet.Eccentricity, color=colors[1], label="Ecc")
-planet = out2.tidalearth
-plt.semilogy(planet.TUMan, planet.Eccentricity, color=colors[2], label="Ecc")
+#planet = out1.tidalearth
+#plt.semilogy(planet.TUMan, planet.Eccentricity, color=colors[1], label="Ecc")
+#planet = out2.tidalearth
+#plt.semilogy(planet.TUMan, planet.Eccentricity, color=colors[2], label="Ecc")
 plt.ylabel(r"Eccentricity")
 plt.xlabel("Upper Mantle Temp. [K]")
 plt.ylim(1e-8, 1e0)
