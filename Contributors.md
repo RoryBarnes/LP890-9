@@ -74,7 +74,7 @@ Rohit V, Department of Aerospace Engineering, BMS College of Engineering, Bengal
 Arturo Miranda Rosete, Instituto de Ciencias Nucleares,
               Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
 
-Matheus Daniel Koren, Instituto de Matemática Estatística e Física, Universidade Federal do Rio Grande, Rio Grande, RS, Brazil
+Matheus Daniel Koren, Instituto de Matemática, Estatística e Física, Universidade Federal do Rio Grande, Rio Grande, RS, Brazil
 
 Daria Paul, I. Physikalisches Institut, Universität zu Köln, Zülpicher Straße 77, 50937, Köln, Germany
 
