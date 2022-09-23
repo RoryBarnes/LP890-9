@@ -1,6 +1,6 @@
 # Primary input file for VPLANET
 sSystemName	LP890-9		# System Name
-iVerbose	5			# Verbosity level
+iVerbose	1			# Verbosity level
 bOverwrite	1			# Allow file overwrites?
 
 # All space after a # is ignored, as is white space

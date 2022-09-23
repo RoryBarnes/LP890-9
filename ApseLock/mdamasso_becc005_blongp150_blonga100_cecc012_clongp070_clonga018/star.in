@@ -3,9 +3,9 @@ saModules stellar eqtide        # Modules
 
 # Physical Parameters
 dMass		    0.118        # Mass, negative -> Earth masses
-dAge                7.2e9       # Assume star is 1 Myr old when disk disperses
+dAge                1.0e6       # Assume star is 1 Myr old when disk disperses
 dRadGyra	    0.45	# Radius of gyration (moment of inertia constant)
-dRotPeriod          -100       # Rotation period, negative -> Days
+dRotPeriod          -0.5       # Rotation period, negative -> Days
 
 # The first body in the saBodyFiles list must be the central mass.
 # This body carries no orbital information => the coordinate system is bodycentric.

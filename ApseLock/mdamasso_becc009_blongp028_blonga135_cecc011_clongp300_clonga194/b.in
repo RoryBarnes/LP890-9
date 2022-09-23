@@ -6,13 +6,13 @@ saModules 	eqtide distorb          # Modules
 dMass		-2.3  	        # Mass, negative -> Earth masses
 dRadius		-1.328  		# Radius, negative -> Earth radii
 dRotPeriod	-1.0  		# Rotation period, negative -> days
-dObliquity	87             # Obliquity (degrees)
+dObliquity	0             # Obliquity (degrees)
 dRadGyra	0.4             # Radius of gyration (unitless)
 
 # Orbital Properties
 dEcc            0.09		# Eccentricity
 # dSemi           -0.01875          # Semi-major axis, negative -> AU
-dOrbPeriod	3		# orbital period
+dOrbPeriod	-3		# orbital period, negative -> days
 
 # Eqtide Properties
 dTidalQ         100             # Tidal phase lag
