@@ -69,7 +69,7 @@ Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technologi
 
 Paul Bonney, Department of Physics, University of Arkansas, 825 W. Dickson St., Fayetteville, Arkansas 72701, USA
 
-Rohit V, Department of Aerospace Engineering, BMS College of Engineering, Bengaluru - 560019, Karnataka, India
+Rohit Vijayakumar, Independent Researcher, Bengaluru, Karnataka, 560076, India (ORCiD: 0000-0002-4258-7175)
 
 Arturo Miranda Rosete, Instituto de Ciencias Nucleares,
               Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
