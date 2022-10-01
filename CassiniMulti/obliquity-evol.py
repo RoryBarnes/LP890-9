@@ -72,15 +72,30 @@ for sim in paul_sims:
             number_sims += 1
 
 
+for i in range(number_sims):
+    if cobl[i][0] == 23.500077: # Hand-picked highlighted simulation
+        red_idx = i
+        print(bobl[i][0], cobl[i][0])
+
+
 bins = number_bins(number_sims)
 fig, ax = plt.subplots(3, 2, figsize=(12, 8))
 for i in range(number_sims):
-    ax[0, 0].plot(time[i], bobl[i], c='k', lw=0.5, alpha=0.01)
-    ax[0, 1].plot(time[i], cobl[i], c='k', lw=0.5, alpha=0.01)
-    ax[1, 0].plot(time[i], bcas1[i], c='k', lw=0.5, alpha=0.01)
-    ax[1, 1].plot(time[i], ccas1[i], c='k', lw=0.5, alpha=0.01)
-    ax[2, 0].plot(time[i], bcas2[i], c='k', lw=0.5, alpha=0.01)
-    ax[2, 1].plot(time[i], ccas2[i], c='k', lw=0.5, alpha=0.01)
+    if i != red_idx:
+        ax[0, 0].plot(time[i], bobl[i], c='k', lw=0.5, alpha=0.01)
+        ax[0, 1].plot(time[i], cobl[i], c='k', lw=0.5, alpha=0.01)
+        ax[1, 0].plot(time[i], bcas1[i], c='k', lw=0.5, alpha=0.01)
+        ax[1, 1].plot(time[i], ccas1[i], c='k', lw=0.5, alpha=0.01)
+        ax[2, 0].plot(time[i], bcas2[i], c='k', lw=0.5, alpha=0.01)
+        ax[2, 1].plot(time[i], ccas2[i], c='k', lw=0.5, alpha=0.01)
+
+ax[0, 0].plot(time[red_idx], bobl[red_idx], c='r', lw=1, alpha=1)
+ax[0, 1].plot(time[red_idx], cobl[red_idx], c='r', lw=1, alpha=1)
+ax[1, 0].plot(time[red_idx], bcas1[red_idx], c='r', lw=1, alpha=1)
+ax[1, 1].plot(time[red_idx], ccas1[red_idx], c='r', lw=1, alpha=1)
+ax[2, 0].plot(time[red_idx], bcas2[red_idx], c='r', lw=1, alpha=1)
+ax[2, 1].plot(time[red_idx], ccas2[red_idx], c='r', lw=1, alpha=1)
+
 ax[0, 0].set_title('LP 890-9 b')
 ax[0, 1].set_title('LP 890-9 c')
 ax[0, 0].set_ylabel(r'Obliquity ($^\circ$)')
