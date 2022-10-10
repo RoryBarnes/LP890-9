@@ -80,3 +80,18 @@ Melissa Sedler, Independent Researcher, Phoenix, AZ, 85048, USA
 
 Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of Technology, Gothenburg, Sweden | Center for Planetary Systems Habitability, University of Texas at Austin, Austin, TX, USA
 
+Daria Paul, I. Physikalisches Institut, Universität zu Köln, Zülpicher Straße 77, 50937, Köln, Germany
+
+Melissa Sedler, Independent Researcher, Phoenix, AZ, 85048, USA
+
+Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of Technology, Gothenburg, Sweden | Center for Planetary Systems Habitability, University of Texas at Austin, Austin, TX, USA
+
+Skanda H, Independent Researcher, Bangalore, Karnataka, 560024, India.
+
+Chetan Chawla, Independent Researcher, New Delhi - 110027, India (ORCiD: 0000-0001-5408-4156)
+
+Allona Vazan, Astrophysics Research Center (ARCO), Department of Natural Sciences, The Open University of Israel
+
+Chandan Kumar Sahu, School of Physical Sciences, National Institute of Science Education and Research Bhubanweswar, Jatni, Khurda (752050), Odisha, India
+
+Cecelia Ngo, Department of Physics and Astronomy, University of California, Riverside, CA, 92521, USA
