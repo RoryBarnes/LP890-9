@@ -1,12 +1,7 @@
-<h2 align="center">Contributors to this Repository</h2>
-
-<h3>Name / Affiliation</h3>
-
 Rory Barnes, Astronomy Dept., University of Washington, Box 351580, Seattle, WA, 98195, USA
 
-Laura Amaral, Instituto de Ciencias Nucleares,
-              Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
-              
+Laura Amaral, Instituto de Ciencias Nucleares, Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
+
 Debajyoti Basu Sarkar, Independent Researcher, White Hall, AR, 71602, USA
 
 Jessica Birky, Astronomy Dept., University of Washington, Box 351580, Seattle, WA, 98195, USA
@@ -63,7 +58,7 @@ Emeline F. Fromont, Department of Astronomy, University of Maryland, College Par
 
 Mohammad Afzal Shadab, Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX, 78712, USA
 
-Md Redyan Ahmed,  Department of Physical Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
+Md Redyan Ahmed, Department of Physical Sciences, Indian Institute of Science Education and Research Kolkata, Mohanpur 741246, India
 
 Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
 
@@ -71,8 +66,7 @@ Paul Bonney, Department of Physics, University of Arkansas, 825 W. Dickson St., 
 
 Rohit Vijayakumar, Independent Researcher, Bengaluru, Karnataka, 560076, India (ORCiD: 0000-0002-4258-7175)
 
-Arturo Miranda Rosete, Instituto de Ciencias Nucleares,
-              Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
+Arturo Miranda Rosete, Instituto de Ciencias Nucleares, Universidad Nacional Autónoma de México, Cto. Exterior S/N, C.U., Coyoacán, 04510 Ciudad de México, CDMX, Mexico
 
 Matheus Daniel Koren, Instituto de Matemática, Estatística e Física, Universidade Federal do Rio Grande, Rio Grande, RS, Brazil
 
