@@ -1,6 +1,6 @@
 -------- Log file system.log -------
 
-Executable: /home/jbirky/.conda/envs/py39/bin/vplanet
+Executable: /home/ckm/.conda/envs/vplanet/bin/vplanet
 Version: Unknown
 System Name: system
 Primary Input File: vpl.in
@@ -73,11 +73,11 @@ Grid Output Order:
 ---- FINAL SYSTEM PROPERTIES ----
 (Age) System Age [sec]: 2.841762e+17 
 (Time) Simulation Time [sec]: 2.840184e+17 
-(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 6.209999e+41 
-(TotEnergy) Total System Energy [kg*m^2/sec^2]: -5.268051e+39 
+(TotAngMom) Total Angular Momentum [kg*m^2/sec]: 6.209889e+41 
+(TotEnergy) Total System Energy [kg*m^2/sec^2]: -5.269119e+39 
 (PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -2.219509e+40 
-(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 2.297030e+32 
-(DeltaTime) Average Timestep Over Last Output Interval [sec]: 1.337022e+08 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 2.297004e+32 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 1.378013e+08 
 
 ----- BODY: star ----
 Active Modules: STELLAR
@@ -86,11 +86,11 @@ Color: 000000
 (Mass) Mass [kg]: 2.346331e+29 
 (Radius) Radius [m]: 9.932926e+07 
 (RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.463486 
-(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 4.779772e+38 
-(RotVel) Rotational Velocity [m/sec]: 95.469960 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 4.779745e+38 
+(RotVel) Rotational Velocity [m/sec]: 95.469410 
 (BodyType) Type of Body (0 == planet) []: 0.000000 
-(RotRate) Rotational Frequency [/sec]: 9.611464e-07 
-(RotPer) Rotational Period [sec]: 6.537178e+06 
+(RotRate) Rotational Frequency [/sec]: 9.611408e-07 
+(RotPer) Rotational Period [sec]: 6.537216e+06 
 (Density) Average Density [kg/m^3]: 5.715694e+04 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 5.128303e+09 
 (HZLimRecVenus) Recent Venus HZ Limit [m]: 4.614473e+09 
@@ -101,14 +101,14 @@ Color: 000000
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.000000 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
 (LXUVTot) Total XUV Luminosity [LSUN]: 4.678962e-07 
-(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.692704e+40 
-(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 6.205219e+41 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.692597e+40 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 6.205110e+41 
 ----- STELLAR PARAMETERS (star)------
 (Luminosity) Luminosity [LSUN]: 0.001426 
 (LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 1.799529e+20 
 (Temperature) Effective Temperature [K]: 2969.104025 
 (LXUVFrac) Fraction of luminosity in XUV []: 0.000328 
-(RossbyNumber) Rossby Number []: 1.101592 
-(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 1.485982e-11 
+(RossbyNumber) Rossby Number []: 1.101598 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 1.485956e-11 
 Output Order: Time[year] Luminosity[LSUN] LXUVTot[LSUN] Radius[m] Temperature[K] HZLimRecVenus[m] HZLimRunaway[m] HZLimMaxGreenhouse[m] HZLimEarlyMars[m]
 Grid Output Order:
