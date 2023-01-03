@@ -1,0 +1,40 @@
+INFO: sUnitMass set in vpl.in, all bodies will use this unit.
+INFO: sUnitTime set in vpl.in, all bodies will use this unit.
+INFO: sUnitAngle set in vpl.in, all bodies will use this unit.
+INFO: sUnitLength set in vpl.in, all bodies will use this unit.
+INFO: sUnitTemp set in vpl.in, all bodies will use this unit.
+INFO: dMass < 0 in file c.in, units assumed to be Mearth.
+INFO: dSemi < 0 in file c.in, units assumed to be AU.
+INFO: dRadius < 0 in file c.in, units assumed to be Rearth.
+INFO: d40KPowerMan < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d40KPowerCore < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d40KPowerCrust < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d232ThPowerMan < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d232ThPowerCore < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d232ThPowerCrust < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d235UPowerMan < 0 in file c.in, units assumed to be Primoridal Earth Units.
+INFO: d235UPowerCore < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d235UPowerCrust < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d238UPowerMan < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d238UPowerCore < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: d238UPowerCrust < 0 in file c.in, units assumed to be Primordial Earth Units.
+INFO: sOutFile not set, defaulting to tidalearth.sun.forward.
+INFO: sOutFile not set, defaulting to tidalearth.c.forward.
+INFO: sIntegrationMethod not set, defaulting to Runge-Kutta4.
+INFO: No rotational information set in file sun.in. Defaulting to dRotRate = 2*pi/day.
+INFO: No rotational information set in file c.in. Defaulting to dRotRate = 2*pi/day.
+INFO: sTideModel not set in any file, defaulting to p2.
+INFO: Option dTidalQ set, but module ThermInt also selected. The tidal Q will be calculated by Thermint.
+INFO: Option dK2 set, but module ThermInt also selected. The Love number k_2 will be calculated by Thermint.
+sun's Im(k_2) verified.
+INFO: dTidalQMantle set, but ThermInt computes it. Input value will be ignored.
+c's Im(k_2) verified.
+INFO: DeltaTime output for first step is defined to be 0 when bVarDt = 1.
+Input files read.
+All of sun's modules verified.
+All of c's modules verified.
+Input files verified.
+Log file written.
+Evolution completed.
+Log file updated.
+Simulation completed.

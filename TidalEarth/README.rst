@@ -1,35 +1,33 @@
-Thermal/Magnetic Evolution of LP 890-9 c's Interior
+Thermal/Magnetic Evolution of LP 890-9 b/c's Interior
 ======================================================
 
 ===================   ============
-**Date**              09/14/2022
+**Date**              12/20/2022
 **Modules**           RadHeat, ThermInt, EqTide
-**Approx. runtime**   xx minutes
+**Approx. runtime**   1 minute per trial
 ===================   ============
 
-TODO:
 
-1. Modify sun.in to match LP 890-9's properties
-2. Modify tidalearth.in to match planet c's properties
-3. Switch sTideModel to either CPL or CTL 
-4. Try different cases with different tidal Q's and radiogenic inventories
-5. Switch to stagnant lid and try planet b (maybe new subdir?)
+In this folder, we model the evolution of the interior and total heat budget
+for the two known plants in the LP 890-9 system. We provide summary files of the
+intergrations run in the folder /DataSummaryFiles, or the user can re-run the 
+integrations and re-generate the files. The summary files are used in MakeFigures.ipynb
+to make the figures included in the paper draft. 
 
-
-To run this example
+To run one case
 -------------------
 
 .. code-block:: bash
 
-   python makeplot.py <pdf | png>
+   vplanet vpl.in
 
+To run the full parameter sweep 
+-------------------
 
-Expected output
----------------
+.. code-block:: bash
 
-.. figure:: TidalEarth1.png
-.. figure:: TidalEarth2.png
-   :width: 600px
-   :align: center
-
-Caption
+   vspace VSPACE.in
+   multiplanet -c 2 VSPACE.in &
+   
+Then use the Jupyter notebook to plot the results. Reading the files in may take a while. 
+   

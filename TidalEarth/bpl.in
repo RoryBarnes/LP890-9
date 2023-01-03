@@ -1,0 +1,8 @@
+sDestFolder ParameterSweep
+sArchiveFile ParameterSweep.bpa
+sOutputFile ParameterSweep.bpf
+
+saBodyFiles   b.in c.in sun.in
+sPrimaryFile   vpl.in
+
+saKeyInclude tidalearth.b:TCore:initial tidalearth.b:TCore:initial

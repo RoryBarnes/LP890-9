@@ -3,11 +3,14 @@ sName		b			# Body's name
 saModules 	radheat thermint eqtide
 
 # Physical Properties
-dMass		     -1.0  			# Mass, negative -> Earth masses
+dMass		     -1.3  			# Mass, negative -> Earth masses
 dRadius		   -1.320  			# Radius, negative -> Earth radii
 # Orbital Properties
-dEcc         0.8		# Eccentricity
-dSemi        -0.038227093115422356 		# Semi-major axis, negative -> AU
+dEcc         0.1		# Eccentricity
+dSemi        -0.01875 		# Semi-major axis, negative -> AU
+
+# mantle parameters that we will change
+
 
 # EQTIDE Parameters
 bForceEqSpin  1
@@ -58,4 +61,4 @@ saOutputOrder -Time -TMan -TUMan -TLMan -TCMB -TCore $
     -BLUMan -BLLMan $
      K2 ImK2 SemiMajorAxis Eccentricity ShmodUMan MeanMotion ViscUManArr $
      ChiOC ChiIC MassChiOC MassChiIC MassOC MassIC $
-    -RadPowerTotal SurfEnFluxEqtide -PowerEqtide TideLock
+    -RadPowerTotal SurfEnFluxEqtide -PowerEqtide TideLock TidalQ -SurfEnFluxTotal 
