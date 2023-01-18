@@ -21,27 +21,61 @@ path = pathlib.Path()
 mpl.rcParams["figure.figsize"] = (10, 8)
 mpl.rcParams["font.size"] = 16.0
 
-# Run vplanet
-output = vplanet.get_output(path, units=False)
+# Get VPLanet output
+try:
+    output = vplanet.get_output(path, units=False)
+    # Extract data
+    time = output.b.Time / 1.0e9
+    ecc1 = output.b.Eccentricity
+    ecc2 = output.c.Eccentricity
+    varpi1 = output.b.LongP
+    varpi2 = output.c.LongP
+    a1 = output.b.SemiMajorAxis
+    a2 = output.c.SemiMajorAxis
+    # i1 = output.b.Inc
+    # i2 = output.c.Inc
+except Exception:
+    # Extract data without .log file (they were accidentally overwritten in some cases)
+    b_forward = path / 'LP890-9.b.forward'
+    c_forward = path / 'LP890-9.c.forward'
+    time = []
+    ecc1 = []
+    ecc2 = []
+    varpi1 = []
+    varpi2 = []
+    a1 = []
+    a2 = []
+    with open(b_forward, 'r') as f:
+        content = [line.strip().split() for line in f.readlines()]
+        for line in content:
+            if line:
+                time.append(float(line[0]) / 1.0e9)
+                ecc1.append(float(line[6]))
+                varpi1.append(float(line[4]))
+                a1.append(float(line[5]))
+    with open(c_forward, 'r') as f:
+        content = [line.strip().split() for line in f.readlines()]
+        for line in content:
+            if line:
+                ecc2.append(float(line[4]))
+                varpi2.append(float(line[2]))
+                a2.append(float(line[3]))
+    time = np.array(time)
+    ecc1 = np.array(ecc1)
+    ecc2 = np.array(ecc2)
+    varpi1 = np.array(varpi1)
+    varpi2 = np.array(varpi2)
+    a1 = np.array(a1)
+    a2 = np.array(a2)
 
-# Extract data
-time = output.b.Time / 1.0e9
-ecc1 = output.b.Eccentricity
-ecc2 = output.c.Eccentricity
-varpi1 = output.b.LongP
-varpi2 = output.c.LongP
-a1 = output.b.SemiMajorAxis
-a2 = output.c.SemiMajorAxis
-# i1 = output.b.Inc
-# i2 = output.c.Inc
 
 # Observational values
-b_semi_major_axis           = np.ones(len(time)) * 0.01875
-b_semi_major_axis_upper_lim = np.ones(len(time)) * 0.01885
-b_semi_major_axis_lower_lim = np.ones(len(time)) * 0.01865
-c_semi_major_axis           = np.ones(len(time)) * 0.03984
-c_semi_major_axis_upper_lim = np.ones(len(time)) * 0.04006
-c_semi_major_axis_lower_lim = np.ones(len(time)) * 0.03962
+b_semi_major_axis           = np.ones_like(time) * 0.01875
+b_semi_major_axis_upper_lim = np.ones_like(time) * 0.01885
+b_semi_major_axis_lower_lim = np.ones_like(time) * 0.01865
+c_semi_major_axis           = np.ones_like(time) * 0.03984
+c_semi_major_axis_upper_lim = np.ones_like(time) * 0.04006
+c_semi_major_axis_lower_lim = np.ones_like(time) * 0.03962
 
 
 # Plot
