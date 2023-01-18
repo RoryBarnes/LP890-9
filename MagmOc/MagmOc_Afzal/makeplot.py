@@ -33,12 +33,12 @@ K40 = 1
 # Run vplanet
 #vplanet.run(path / "vpl.in")
 
-# TRAPPIST-1 g #
-data = np.loadtxt("Trappist1.g.forward")
-R_N_Planet = 1.15
-M_N_Planet = 1.14
-Ecc = 0.002
-Name_Planet = "Trappist-1 g"
+# LP890-9 c #
+data = np.loadtxt("LP8909.c.forward")
+R_N_Planet = 1.367
+M_N_Planet = 2.5
+Ecc = 0.0
+Name_Planet = "LP890-9 c"
 
 time = data[:, 0]  # time (yr)
 Tpot = data[:, 1]  # Potential temp magma ocean (K)
@@ -232,4 +232,4 @@ plt.subplots_adjust(left=0.1, right=0.95, top=0.93, bottom=0.05, wspace=0.25)
 
 # Save the figure
 #ext = get_args().ext
-fig.savefig( f"Trappist1g_2TO.pdf")
+fig.savefig( f"LP890-9M5T0output.pdf")
