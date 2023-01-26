@@ -1,6 +1,7 @@
 """
 Adapted from Fig. 22 in Barnes et al. (2020). Original figure by David Fleming.
 """
+
 import vplanet
 import vplot
 import matplotlib.pyplot as plt
@@ -86,7 +87,7 @@ color = "k"
 axes[0, 0].plot(time, a1, color="C3", zorder=-1, label="b")
 axes[0, 0].plot(time, b_semi_major_axis, color="k", ls="--")
 axes[0, 0].fill_between(time, b_semi_major_axis_upper_lim, b_semi_major_axis_lower_lim, color="gray", alpha=0.5)
-axes[0, 0].legend(loc=0)
+# axes[0, 0].legend(loc=0)
 
 # Format
 axes[0, 0].set_xlim(time.min(), time.max())
@@ -112,12 +113,13 @@ axes[1, 0].plot(time, c_semi_major_axis, color="k", ls="--")
 axes[1, 0].fill_between(time, c_semi_major_axis_upper_lim, c_semi_major_axis_lower_lim, color="gray", alpha=0.5)
 # axes[1, 0].set_ylabel(r"Inclination ($^{\circ}$)")
 axes[1, 0].set_ylabel(r"Semi-major Axis (au)")
-axes[1, 0].legend(loc=0)
+# axes[1, 0].legend(loc=0)
 
 ## Lower right: diff between longitude of periapses ##
 # varpiDiff = np.fabs(np.fmod(varpi1 - varpi2, 360.0))
-varpiDiff = np.abs((varpi1 - varpi2 + 180) % 360 - 180)
-axes[1, 1].scatter(time, varpiDiff, color="C3", s=10, zorder=-1)
+varpiDiff = np.fabs((varpi1 - varpi2 + 180) % 360 - 180)
+axes[1, 1].scatter(time, varpiDiff, color="C3", s=10, zorder=-1, label='Angle')
+axes[1, 1].legend().remove()
 
 # Format
 axes[1, 1].set_xlim(time.min(), time.max())
