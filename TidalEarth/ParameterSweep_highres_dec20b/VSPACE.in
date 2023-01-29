@@ -1,0 +1,15 @@
+sSrcFolder /Users/jcbecker/Documents/GitHub/LP890-9/TidalEarth
+sDestFolder ParameterSweep
+sTrialName test_
+
+sBodyFile   sun.in
+
+sBodyFile   c.in
+
+sBodyFile   b.in
+
+dMass [-1.6, -4.0, n30] bmass
+dEcc [0.0, 0.3, n30] becc
+
+
+sPrimaryFile   vpl.in
