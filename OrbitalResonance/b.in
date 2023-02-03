@@ -1,0 +1,20 @@
+sName		b			# Body's name
+saModules 	spinbody          # Modules
+
+bUseOrbParams	1
+
+# Physical Properties
+dMass		-2.3  	        # Mass, negative -> Earth masses
+dRadius	-1.320  		# Radius, negative -> Earth radii
+
+# Orbital Properties
+dEcc 0.20999999999999996
+dSemi           0.0188          # Semi-major axis, negative -> AU
+dInc            89.67             # Orbital inclination (degrees)
+dLongA          0.0             # Longitude of the Ascending node (degrees)
+dLongP 216.0
+dMeanA		216.0		# Mean Anomaly (degrees)
+#sOrbitModel     rd4             # Use 4th Order disturbing function model
+
+#Output
+saOutputOrder Time LongP MeanLongitude -TotEn -TotAngMom SemimajorAxis -OrbPeriod Eccentricity
