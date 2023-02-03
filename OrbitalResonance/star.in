@@ -1,0 +1,12 @@
+sName		star		# Body's name
+saModules 	spinbody        # Modules
+
+bUseOrbParams	1
+
+# Physical Parameters
+dMass		    0.118        # Mass, negative -> Earth masses
+dAge                7.2e9       # Assume star is 1 Myr old when disk disperses
+#dRadGyra	    0.45	# Radius of gyration (moment of inertia constant)
+#dRotPeriod          -100        # Rotation period, negative -> Days
+
+saOutputOrder Time
