@@ -1,0 +1,19 @@
+# The host star
+sName	        LP8909		                    # Body's name
+saModules	    stellar                                    # Modules to apply, exact spelling required
+sColor             c91111
+
+# Physical Parameters
+dMass            0.118                        # Mass, solar masses
+dAge              1e6                            # stellar age
+dRadGyra      0.5                            # Radius of gyration (moment of inertia constant)
+
+# STELLAR Parameters
+sStellarModel    baraffe                                 # Stellar evolution model: `baraffe` or `none`
+dSatXUVFrac     0.00120226                       # Saturation level of the XUV luminosity
+dSatXUVTime   3e9                                        # XUV luminosity saturation time
+dXUVBeta         1.18                                       # XUV decay power law exponent for the stellar XUV luminosity
+
+# Output
+saOutputOrder Age -Luminosity -LXUVStellar -Radius Temperature -HZLimRunaway -HZLimMaxGreenhouse -HZLimRecVenus -HZLimitDryRunaway -HZLimEarlyMars -HZLimMoistGreenhouse
+
