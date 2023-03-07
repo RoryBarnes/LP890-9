@@ -19,8 +19,8 @@ if len(sys.argv) != 2:
 path = pathlib.Path()
 
 # Typical plot parameters that make for pretty plot
-mpl.rcParams["figure.figsize"] = (10, 8)
-mpl.rcParams["font.size"] = 16.0
+mpl.rcParams["figure.figsize"] = (8, 6)
+mpl.rcParams["font.size"] = 24.0
 
 # Get VPLanet output
 try:
@@ -116,14 +116,19 @@ axes[1, 0].set_ylabel(r"Semi-major Axis (au)")
 # axes[1, 0].legend(loc=0)
 
 ## Lower right: diff between longitude of periapses ##
-# varpiDiff = np.fabs(np.fmod(varpi1 - varpi2, 360.0))
-varpiDiff = np.fabs((varpi1 - varpi2 + 180) % 360 - 180)
-axes[1, 1].scatter(time, varpiDiff, color="C3", s=10, zorder=-1, label='Angle')
-axes[1, 1].legend().remove()
+# varpi_diff = np.fabs(np.fmod(varpi1 - varpi2, 360.0))
+varpi_diff = varpi1 - varpi2
+mod_varpi_diff = np.array([])
+for angle in varpi_diff:
+    sgn = np.sign(angle)
+    angle -= sgn * np.floor(np.abs(angle)/180) * 360
+    mod_varpi_diff = np.append(mod_varpi_diff, angle)
+axes[1, 1].scatter(time, mod_varpi_diff, color="k", s=10, zorder=-1)
+# axes[1, 1].legend().remove()
 
 # Format
 axes[1, 1].set_xlim(time.min(), time.max())
-axes[1, 1].set_ylim(0, 180)
+# axes[1, 1].set_ylim(0, 180)
 axes[1, 1].set_xlabel("Time (Gyr)")
 axes[1, 1].set_ylabel(r"$\Delta \varpi$ ($^{\circ}$)")
 

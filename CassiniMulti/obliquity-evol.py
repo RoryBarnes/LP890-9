@@ -79,7 +79,7 @@ for i in range(number_sims):
         # print(bobl[i][0], cobl[i][0])
 
 
-fig, ax = plt.subplots(4, 2, figsize=(12, 8))
+fig, ax = plt.subplots(4, 2, figsize=(9, 6))
 for i in range(number_sims):
     if i != red_idx:
         try:
@@ -106,6 +106,7 @@ ax[3, 1].plot(time[red_idx], ccas2[red_idx], c='r', lw=1, alpha=1)
 
 ax[0, 0].set_title('LP 890-9 b')
 ax[0, 1].set_title('LP 890-9 c')
+ax[0, 0].set_ylabel('Rot. per. (days)')
 ax[1, 0].set_ylabel(r'Obliquity ($^\circ$)')
 ax[2, 0].set_ylabel(r'$\sin\Psi$')
 ax[3, 0].set_ylabel(r'$\cos\Psi$')
