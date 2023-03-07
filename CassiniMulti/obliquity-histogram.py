@@ -64,21 +64,29 @@ for sim in paul_sims:
             final_cobl.append(c_output_data['Obli'].iloc[-1])
             number_sims += 1
 
+# Remove outlier case
+for i, obl in enumerate(final_cobl):
+    if obl > 5.:
+        for l in [init_bobl, init_cobl, final_bobl, final_cobl]:
+            del l[i]
+
 
 bins = number_bins(number_sims)
 fig, ax = plt.subplots(2, 2)
-ax[0, 0].hist(init_bobl, bins=bins, weights=np.ones_like(init_bobl)/number_sims, color=colors.orange)
+ax[0, 0].hist(init_bobl, bins=bins, weights=np.ones_like(init_bobl)*100./number_sims, color=colors.orange)
 ax[0, 0].set_title('LP 890-9 b')
-ax[0, 1].hist(init_cobl, bins=bins, weights=np.ones_like(init_bobl)/number_sims, color=colors.pale_blue)
+ax[0, 1].hist(init_cobl, bins=bins, weights=np.ones_like(init_bobl)*100./number_sims, color=colors.pale_blue)
 ax[0, 1].set_title('LP 890-9 c')
-ax[1, 0].hist(final_bobl, bins=bins, weights=np.ones_like(init_bobl)/number_sims, color=colors.orange)
+ax[1, 0].hist(final_bobl, bins=bins, weights=np.ones_like(init_bobl)*100./number_sims, color=colors.orange)
 ax[1, 0].set_xlim(0.003, 0.015)
-ax[1, 1].hist(final_cobl, bins=bins, weights=np.ones_like(init_bobl)/number_sims, color=colors.pale_blue)
+ax[1, 1].hist(final_cobl, bins=bins, weights=np.ones_like(init_cobl)*100./number_sims, color=colors.pale_blue)
 ax[1, 1].set_xlim(0.1, 0.6)
 for a in ax[0]:
-    a.axhline(1/bins, ls='--', c='k')
+    a.axhline(100./bins, ls='--', c='k')
     a.set_xlim(0., 180.)
     a.set_xlabel(r'Initial obliquity ($^\circ$)')
 for a in ax[1]:
     a.set_xlabel(r'Obliquity after 10 kyr ($^\circ$)')
+for a in ax[:, 0]:
+    a.set_ylabel(r'Simulations ($\%$)')
 fig.savefig(path / 'obliquity-histogram.pdf', dpi=600)
